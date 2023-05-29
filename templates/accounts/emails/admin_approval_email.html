@@ -1,0 +1,18 @@
+{% autoescape off %}
+Hin {{user.first_name}},
+
+
+{% if is_approved%}
+    Congratulations ! Your restaurant has been approved by our admin team,....
+
+{% else %}  
+    We are sorry ! Your are not eligible for publishing your ... on our marketplace.For more details please conract support@gmail.com   .
+
+
+{% endif %}
+
+
+
+
+
+{% endautoescape %}
